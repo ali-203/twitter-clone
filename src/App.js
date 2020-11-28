@@ -1,12 +1,14 @@
 import React from 'react';
 import Sidebar from "./Sidebar";
+import Feed from "./Feed";
+
 import './App.css';
 
 function App() {
   return (
     <div className="app">
-    <h1>Hey Clever Programmers... Let's build a Twitter Clone 🚀</h1>
     <Sidebar />
+    <Feed />
     </div>
   );
 }
