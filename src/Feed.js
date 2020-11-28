@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "./Feed.css";
 
 function Feed() {
     return (
-        <div>
+        <div className="feed">
         <h1>Home</h1>    
         </div>
     )
