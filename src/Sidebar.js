@@ -8,7 +8,14 @@ function Sidebar() {
 return (
     <div className="sidebar">
     <TwitterIcon />
+
+
+    <SidebarOption Icon={HomeIcon} text="Home"/>
+    <SidebarOption Icon={SearchIcon} />
     <SidebarOption />
+    <SidebarOption />
+    
+
 
     </div>
 );
