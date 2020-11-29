@@ -5,7 +5,13 @@
     overflow-y: scroll;
 
 }
-.feed::-web
+.feed::-webkit-scrollbar {
+    display: none;
+}
+.feed {
+    -ms-overfloe-style: none;
+    scrollbar-width: none;
+}
 
 .feed_header {
     position: sticky;
