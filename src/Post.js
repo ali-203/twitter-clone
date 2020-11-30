@@ -2,7 +2,7 @@
 import React from "react";
 import { Avatar } from "@material-ui/core";
 import "./Post.css";
-import { VerifiedUser } from "@material-ui/icons";
+import { VerifiedUserIcon } from "@material-ui/icons";
 
 function Post ({ displayName, username, verified, text, image, avatar})
   {
@@ -20,8 +20,12 @@ function Post ({ displayName, username, verified, text, image, avatar})
             </span>
              </h3>
         </div>
+        <div className="post_headerDescription">
+            <p>I challenge you to build a Twitter Clone with React !!! </p>
+        </div>
 
         </div>
+        
             </div>
         </div>
     );
