@@ -2,10 +2,10 @@
 import React from "react";
 import { Avatar } from "@material-ui/core";
 import "./Post.css";
-import { VerifiedUserIcon } from "@material-ui/icons";
+import { VerifiedUserIcon } from "@material-ui/icons/VerifiedUser";
 
-function Post ({ displayName, username, verified, text, image, avatar})
-  {
+function Post ({ displayName, username, verified, text, image, avatar}) {
+  
     return (
         <div className="post">
         <div className="post_avatar">
@@ -16,7 +16,7 @@ function Post ({ displayName, username, verified, text, image, avatar})
             <div className="post_headerText">
             <h3> Ali Raza{""}
             <span>
-                <VerifiedUserIcon className="post_badge"></VerifiedUserIcon>
+                <VerifiedUserIcon className="post_badge"/> @cleverqazi
             </span>
              </h3>
         </div>
@@ -25,6 +25,7 @@ function Post ({ displayName, username, verified, text, image, avatar})
         </div>
 
         </div>
+        <img src="https://media3.giphy.com/media/65ATdpi3clAdjomZ39/giphy.gif"alt="" />
         
             </div>
         </div>
