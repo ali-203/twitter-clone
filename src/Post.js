@@ -4,7 +4,7 @@ import { Avatar } from "@material-ui/core";
 import "./Post.css";
 import { VerifiedUserIcon } from "@material-ui/icons/VerifiedUser";
 
-function Post ({ displayName, username, verified, text, image, avatar}) {
+function Post({ displayName, username, verified, text, image, avatar}) {
   
     return (
         <div className="post">
