@@ -4,7 +4,6 @@ import Post from "./Post";
 import "./Feed.css";
 import db from "./firebase";
 import FlipMove from "react-flip-move";
-import { StarTwoTone } from "@material-ui/icons";
 
 function Feed() {
   const [posts, setPosts] = useState([]);
